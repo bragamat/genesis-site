@@ -1,4 +1,4 @@
-import Link from 'next/link'
+// import Link from 'next/link'
 import Image from 'next/image'
 import NossaHistoria from 'components/NossaHistoria'
 import NossosServicos from 'components/NossosServicos'
@@ -33,15 +33,21 @@ export default function Example() {
                   </span>
                 </h1>
                 <p className="mt-6 max-w-lg mx-auto text-center text-xl text-indigo-200 sm:max-w-3xl">
-                  Com a Genesis Assessoria fica tudo mais facil
+                  Com a Gênesis Assessoria fica tudo mais fácil
                 </p>
                 <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
                   <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
-                    <Link href="/contato" passHref>
+                    {/* <Link href="/contato" passHref> */}
+                    <a
+                      href="https://web.whatsapp.com/send?phone=5511932155396"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <a className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-700 bg-white hover:bg-indigo-50 sm:px-8">
                         Contato
                       </a>
-                    </Link>
+                    </a>
+                    {/* </Link> */}
                     <a
                       href="#"
                       className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-500 bg-opacity-60 hover:bg-opacity-70 sm:px-8"
@@ -64,20 +70,22 @@ export default function Example() {
         <div className="bg-white">
           <div className="max-w-4xl mx-auto py-16 px-4 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 lg:flex lg:items-center lg:justify-between">
             <h2 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              <span className="block">Tem mais duvidas?</span>
+              <span className="block">Tem mais dúvidas?</span>
               <span className="block bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">
                 entre em contato com a gente!
               </span>
             </h2>
             <div className="mt-6 space-y-4 sm:space-y-0 sm:flex sm:space-x-5">
-              <Link href="/contato" passHref>
-                <a
-                  href="#"
-                  className="flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700"
-                >
+              <a
+                href="https://web.whatsapp.com/send?phone=5511932155396"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <a className="flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700">
                   Contato
                 </a>
-              </Link>
+              </a>
+
               {/*
               <a
                 href="#"

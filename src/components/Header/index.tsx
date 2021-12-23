@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { solutions } from 'fixtures/solutions'
+import Image from 'next/image'
 
 const Main = () => (
   <header>
@@ -12,10 +13,12 @@ const Main = () => (
           <Link href="/" passHref>
             <a>
               <span className="sr-only">Genesis</span>
-              <img
+              <Image
                 className="h-8 w-auto sm:h-10"
                 src="/img/genesis-assessoria.png"
                 alt=""
+                width={150}
+                height={80}
               />
             </a>
           </Link>
