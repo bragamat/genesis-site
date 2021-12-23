@@ -1,5 +1,3 @@
-import { metrics } from 'fixtures/metrics'
-
 const NossaHistoria = () => (
   <>
     <div className="relative bg-gray-900">
