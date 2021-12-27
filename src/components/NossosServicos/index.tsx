@@ -105,7 +105,7 @@ const NossosServicos = () => (
     <div className="bg-gradient-to-r from-purple-800 to-indigo-700">
       <div className="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
         <h2 className="text-3xl font-extrabold text-white tracking-tight">
-          Nossos Servicos
+          Nossos Serviços
         </h2>
         <p className="mt-4 max-w-3xl text-lg text-purple-200">
           Aproveite dos nossos serviços
@@ -116,7 +116,9 @@ const NossosServicos = () => (
             className="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-5 lg:gap-x-8 lg:gap-y-16"
           >
             <span className="flex align-center justify-center">
-              <Image src={feature.logo} width={80} height={80} />
+              <div>
+                <Image src={feature.logo} width={80} height={80} />
+              </div>
             </span>
             {feature.services.map((service) => (
               <div key={service.name}>
