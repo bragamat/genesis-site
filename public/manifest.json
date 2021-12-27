@@ -3,12 +3,12 @@
   "short_name": "Genesis Assessoria",
   "icons": [
     {
-      "src": "/img/genesis-assessoria.png",
+      "src": "/img/genesis-logo-01.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/img/genesis-assessoria.png",
+      "src": "/img/genesis-logo-01.png",
       "type": "image/png",
       "sizes": "512x512"
     }
