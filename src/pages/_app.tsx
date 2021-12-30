@@ -9,8 +9,14 @@ function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>Genesis Assessoria</title>
-        <link rel="shortcut icon" href="/img/02-genesis-logo-white-transparent.png" />
-        <link rel="apple-touch-icon" href="/img/02-genesis-logo-white-transparent.png" />
+        <link
+          rel="shortcut icon"
+          href="/img/02-genesis-logo-white-transparent.png"
+        />
+        <link
+          rel="apple-touch-icon"
+          href="/img/02-genesis-logo-white-transparent.png"
+        />
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#06092B" />
         <meta

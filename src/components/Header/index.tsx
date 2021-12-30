@@ -149,10 +149,12 @@ const Main = () => (
             <div className="pt-5 pb-6 px-5">
               <div className="flex items-center justify-between">
                 <div>
-                  <img
+                  <Image
                     className="h-8 w-auto"
                     src="/img/genesis-assessoria.png"
                     alt="Workflow"
+                    width={150}
+                    height={80}
                   />
                 </div>
                 <div className="-mr-2">

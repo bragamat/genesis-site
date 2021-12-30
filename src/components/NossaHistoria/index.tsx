@@ -23,14 +23,14 @@ const NossaHistoria = () => (
         <div className="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
           <h2 className="text-sm font-semibold tracking-wide uppercase">
             <span className="bg-gradient-to-r from-purple-300 to-indigo-300 bg-clip-text text-transparent">
-              Nossa Historia
+              Nossa História
             </span>
           </h2>
           <p className="mt-3 text-3xl font-extrabold text-white">
-            Genesis Assessoria
+            Gênesis Assessoria
           </p>
           <p className="mt-5 text-lg text-gray-300">
-            A Genesis Assessoria iniciou sua trajetória no ano de 2019,
+            A Gênesis Assessoria iniciou sua trajetória no ano de 2019,
             idealizada por dois ex militares do Exército Brasileiro, que notaram
             a carência de uma empresa eficiente no ramo de documentação de
             Produtos Controlados pelo Exército (PCE), que fosse focada no bom
