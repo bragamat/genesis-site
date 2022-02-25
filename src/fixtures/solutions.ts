@@ -1,34 +1,18 @@
-import {
-  AnnotationIcon,
-  ChatAlt2Icon,
-  QuestionMarkCircleIcon,
-  InboxIcon
-} from '@heroicons/react/outline'
-
 export const solutions = [
   {
-    name: 'Inbox',
-    description:
-      'Get a better understanding of where your traffic is coming from.',
-    href: '#',
-    icon: InboxIcon
+    name: 'Nossa História',
+    href: '/nossa-historia'
   },
   {
-    name: 'Messaging',
-    description: 'Speak directly to your customers in a more meaningful way.',
-    href: '#',
-    icon: AnnotationIcon
+    name: 'Nossos Serviços',
+    href: '/nossos-servicos'
   },
   {
-    name: 'Live Chat',
-    description: "Your customers' data will be safe and secure.",
-    href: '#',
-    icon: ChatAlt2Icon
+    name: 'Nossa Missão',
+    href: '/nossa-missao'
   },
   {
-    name: 'Knowledge Base',
-    description: "Connect with third-party tools that you're already using.",
-    href: '#',
-    icon: QuestionMarkCircleIcon
+    name: 'Contato',
+    href: 'contato'
   }
 ]

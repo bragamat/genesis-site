@@ -3,7 +3,7 @@ import { servicos } from 'fixtures/features'
 
 const NossosServicos = () => (
   <>
-    <div className="relative pt-16 pb-32 overflow-hidden">
+    <div className="relative pt-16 pb-26 overflow-hidden">
       <div
         aria-hidden="true"
         className="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-gray-100"
@@ -46,10 +46,11 @@ const NossosServicos = () => (
           <div className="mt-12 sm:mt-16 lg:mt-0">
             <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
               <Image
-                className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                className="rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
                 src="/img/holding-gun.jpeg"
                 alt="Person holding a gun"
-                layout="fill"
+                width={700}
+                height={700}
               />
             </div>
           </div>
@@ -90,13 +91,14 @@ const NossosServicos = () => (
               </div>
             </div>
           </div>
-          <div className="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
-            <div className="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+          <div className="mt-12 sm:mt-16 lg:mt-0">
+            <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
               <Image
-                className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+                width={700}
+                height={700}
+                className="rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
                 src="/img/2-people-with-gun.jpg"
                 alt="Customer profile user interface"
-                layout="fill"
               />
             </div>
           </div>

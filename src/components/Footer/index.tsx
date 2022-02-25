@@ -1,120 +1,63 @@
-import { footerNavigation } from 'fixtures/footerNavigation'
+import Image from 'next/image'
+import { FaInstagramSquare, FaFacebook } from 'react-icons/fa'
 
 const Main = () => (
   <footer className="bg-gray-50" aria-labelledby="footer-heading">
     <h2 id="footer-heading" className="sr-only">
       Footer
     </h2>
-    <div className="max-w-7xl mx-auto pt-16 pb-8 px-4 sm:px-6 lg:pt-24 lg:px-8">
-      <div className="xl:grid xl:grid-cols-3 xl:gap-8">
-        <div className="grid grid-cols-2 gap-8 xl:col-span-2">
-          <div className="md:grid md:grid-cols-2 md:gap-8">
-            <div>
-              <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                Solutions
-              </h3>
-              <ul role="list" className="mt-4 space-y-4">
-                {footerNavigation.solutions.map((item) => (
-                  <li key={item.name}>
-                    <a
-                      href={item.href}
-                      className="text-base text-gray-500 hover:text-gray-900"
-                    >
-                      {item.name}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="mt-12 md:mt-0">
-              <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                Support
-              </h3>
-              <ul role="list" className="mt-4 space-y-4">
-                {footerNavigation.support.map((item) => (
-                  <li key={item.name}>
-                    <a
-                      href={item.href}
-                      className="text-base text-gray-500 hover:text-gray-900"
-                    >
-                      {item.name}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-          <div className="md:grid md:grid-cols-2 md:gap-8">
-            <div>
-              <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                Company
-              </h3>
-              <ul role="list" className="mt-4 space-y-4">
-                {footerNavigation.company.map((item) => (
-                  <li key={item.name}>
-                    <a
-                      href={item.href}
-                      className="text-base text-gray-500 hover:text-gray-900"
-                    >
-                      {item.name}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="mt-12 md:mt-0">
-              <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                Legal
-              </h3>
-              <ul role="list" className="mt-4 space-y-4">
-                {footerNavigation.legal.map((item) => (
-                  <li key={item.name}>
-                    <a
-                      href={item.href}
-                      className="text-base text-gray-500 hover:text-gray-900"
-                    >
-                      {item.name}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div className="mt-12 xl:mt-0">
-          <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-            Subscribe to our newsletter
-          </h3>
-          <p className="mt-4 text-base text-gray-500">
-            The latest news, articles, and resources, sent to your inbox weekly.
-          </p>
-          <form className="mt-4 sm:flex sm:max-w-md">
-            <label htmlFor="email-address" className="sr-only">
-              Email address
-            </label>
-            <input
-              type="email"
-              name="email-address"
-              id="email-address"
-              autoComplete="email"
-              required
-              className="appearance-none min-w-0 w-full bg-white border border-gray-300 rounded-md shadow-sm py-2 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:placeholder-gray-400"
-              placeholder="Enter your email"
-            />
-            <div className="mt-3 rounded-md sm:mt-0 sm:ml-3 sm:flex-shrink-0">
-              <button
-                type="submit"
-                className="w-full flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700"
-              >
-                Subscribe
-              </button>
-            </div>
-          </form>
-        </div>
+    <div className="grid grid-cols-1 md:grid-cols-2 p-4 md:p-20">
+      <div className="md:col-span-1 pt-10 md:pt-0">
+        <a href="#">
+          <Image
+            className="h-8 w-auto sm:h-10 bg-gray-50"
+            src="/img/01-logo-genesis-transp.png"
+            alt=""
+            width={250}
+            height={250}
+          />
+        </a>
       </div>
-      <div className="mt-12 border-t border-gray-200 pt-8 md:flex md:items-center md:justify-between lg:mt-16">
+      <div className="md:col-span-1 pt-10 md:pt-4">
+        <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
+          ATENDIMENTO
+        </h3>
+        <p className="mt-4 text-base text-gray-900">(41) 3015-3222</p>
+        <a
+          href="mailto:atendimento@falconarmas.com.br"
+          className="text-base text-gray-900 hover:text-gray-500"
+        >
+          atendimento@falconarmas.com.br
+        </a>
+        <p className="text-base text-gray-900">
+          Segunda à Sexta: <br />
+          09H às 18H
+        </p>
+        <p className="mt-4 text-base text-gray-900">
+          Sábado: <br />
+          09H às 13H
+        </p>
+      </div>
+      <div className="md:col-span-2 pt-10 md:pt-4">
+        <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
+          SIGA-NOS
+        </h3>
+        <ul className="flex mt-4 ">
+          <li className="flex items-center justify-center text-4xl w-12 h-12 rounded-full hover:text-gray-500 mx-2">
+            <a href="#">
+              <FaInstagramSquare />
+            </a>
+          </li>
+          <li className="flex items-center justify-center text-4xl w-12 h-12 rounded-full hover:text-gray-500 mx-2">
+            <a href="#">
+              <FaFacebook />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div className="md:col-span-4 mt-12 border-t border-gray-200 pt-8 md:flex md:items-center md:justify-between lg:mt-16">
         <p className="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
-          &copy; 2021 Genesis Assessoria, Inc. All rights reserved.
+          &copy; 2022 Genesis Assessoria, Inc. All rights reserved.
         </p>
       </div>
     </div>
