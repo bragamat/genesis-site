@@ -4,14 +4,14 @@ export default function SliderContainer({ images }) {
   return (
     <div className="carousel">
       {
-        images.map((img, index, array) => (
+        images.map(({src, name, ...rest}, index, array) => (
           <Slide
             key={index}
             number={index}
             total={array.length}
-            src={img.src}
-            name={img.name}
-            {...img.options}
+            src={src}
+            name={name}
+            {...rest}
           />
         ))
       }

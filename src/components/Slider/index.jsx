@@ -24,12 +24,13 @@ export default function Slider({ src, ...rest }) {
       className="carousel-item relative w-full"
       id={`slide${rest.number}-${rest.name}`}
     >
+      {console.log(' ta chegnado aqui :' , rest.className, rest.layoutFill)}
     <Image
-      className="rounded-xl shadow-xl ring-1 ring-black
+      className={`rounded-xl shadow-xl ring-1 ring-black
       ring-opacity-5 lg:right-0 lg:h-full lg:w-auto
-      lg:max-w-none relative w-full"
-      width={700}
-      height={700}
+      lg:max-w-none relative w-full ${rest.className}`}
+      width={rest.width || 700}
+      height={rest.height || 700}
       src={src}
       {...rest}
     />
