@@ -29,8 +29,10 @@ const NossosServicos = () => (
                 <p className="mt-4 text-lg text-gray-500">
                   Através do Certificado de Registro (CR), você poderá exercer
                   as atividades de Caçador, Atirador e Colecionador, famosa
-                  sigla CAC, além de poder adquirir armas de calibre restrito e
-                  permitido, munições, equipamentos de recarga.
+                  sigla CAC, além de poder adquirir armas de calibre restrito
+                  e permitido, munições, equipamentos de recarga, além de poder
+                  portar uma arma de fogo em pronto uso nos descolamentos para
+                  treinamento e/ou competição em todo território nacional.
                 </p>
                 <div className="mt-6">
                   <a
