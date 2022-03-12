@@ -17,7 +17,7 @@ const Main = () => (
                 className="h-8 w-auto sm:h-10"
                 src="/img/genesis-assessoria.png"
                 alt=""
-                width={150}
+                width={200}
                 height={80}
               />
             </a>
