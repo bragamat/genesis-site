@@ -98,12 +98,12 @@ const NossosServicos = () => (
           </div>
           <div className="mt-12 sm:mt-16 lg:mt-0">
             <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-              <Image
-                width={700}
-                height={700}
-                className="rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                src="/img/2-people-with-gun.jpg"
-                alt="Customer profile user interface"
+              <SliderContainer
+                images={[
+                  { src: "/img/carrossel-branco/cb-01.jpeg", width: 700, height: 700, name: 'carroseel-branco'},
+                  { src: "/img/carrossel-branco/cb-02.jpeg", width: 700, height: 700, name: 'carroseel-branco'},
+                  { src: "/img/carrossel-branco/cb-03.jpeg", width: 700, height: 700, name: 'carroseel-branco'},
+                ]}
               />
             </div>
           </div>
