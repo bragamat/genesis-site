@@ -58,19 +58,12 @@ export default function Example() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <a className="flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700">
-                  Contato
-                </a>
+                <Image
+                  src="/img/wpp-button.png"
+                  width={300}
+                  height={100}
+                />
               </a>
-
-              {/*
-              <a
-                href="#"
-                className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-800 bg-indigo-50 hover:bg-indigo-100"
-              >
-                Get started
-              </a>
-                */}
             </div>
           </div>
         </div>

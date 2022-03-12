@@ -6,9 +6,7 @@ const NossosServicos = () => (
   <>
     <div className="relative pt-16 pb-26 overflow-hidden">
       <div
-        aria-hidden="true"
-        // className="absolute inset-x-0 top-0 h-48 bg-white from-gray-100"
-        className="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-gray-100"
+        aria-hidden="true" className="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-gray-100"
       />
       <div className="relative">
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
@@ -38,7 +36,7 @@ const NossosServicos = () => (
                 </p>
                 <div className="mt-6">
                   <a
-                    href="#"
+                    href="#contato-e-localizacao"
                     className="inline-flex bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700"
                   >
                     Saiba mais
@@ -88,7 +86,7 @@ const NossosServicos = () => (
                 </p>
                 <div className="mt-6">
                   <a
-                    href="#"
+                    href="#contato-e-localizacao"
                     className="inline-flex bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700"
                   >
                     Saiba mais
@@ -130,11 +128,9 @@ const NossosServicos = () => (
             {feature.services.map((service) => (
               <div key={service.name}>
                 <div className="mt-6">
-                  {/* <h3 className="text-lg font-medium text-white"> */}
                   <h4 className="text-3xl font-extrabold tracking-tight text-gray-900">
                     {service.name}
                   </h4>
-                  {/* <p className="mt-2 text-base text-purple-200"> */}
                   <p className="mt-2 text-lg text-gray-500">
                     {service.description}
                   </p>

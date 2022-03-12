@@ -2,7 +2,11 @@ import Image from 'next/image'
 import { FaInstagramSquare, FaFacebook } from 'react-icons/fa'
 
 const Main = () => (
-  <footer className="bg-gray-50" aria-labelledby="footer-heading">
+  <footer
+    className="bg-gray-50"
+    aria-labelledby="footer-heading"
+    id="contato-e-localizacao"
+  >
     <h2 id="footer-heading" className="sr-only">
       Footer
     </h2>
