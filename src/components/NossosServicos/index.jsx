@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { servicos } from 'fixtures/features'
+import SliderContainer from '../Slider/SliderContainer'
 
 const NossosServicos = () => (
   <>
@@ -47,12 +48,16 @@ const NossosServicos = () => (
           </div>
           <div className="mt-12 sm:mt-16 lg:mt-0">
             <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-              <Image
-                className="rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                src="/img/holding-gun.jpeg"
-                alt="Person holding a gun"
-                width={700}
-                height={700}
+              <SliderContainer
+                images={[
+                  { src: "/img/carrossel-azul/cp-01.jpeg", width: 700, height: 700, name: 'carroseel-azul'},
+                  { src: "/img/carrossel-azul/cp-02.jpeg", width: 700, height: 700, name: 'carroseel-azul'},
+                  { src: "/img/carrossel-azul/cp-03.jpeg", width: 700, height: 700, name: 'carroseel-azul'},
+                  { src: "/img/carrossel-azul/cp-04.jpeg", width: 700, height: 700, name: 'carroseel-azul'},
+                  { src: "/img/carrossel-azul/cp-05.jpeg", width: 700, height: 700, name: 'carroseel-azul'},
+                  { src: "/img/carrossel-azul/cp-06.jpeg", width: 700, height: 700, name: 'carroseel-azul'},
+                  { src: "/img/carrossel-azul/cp-07.jpeg", width: 700, height: 700, name: 'carroseel-azul'},
+                ]}
               />
             </div>
           </div>
