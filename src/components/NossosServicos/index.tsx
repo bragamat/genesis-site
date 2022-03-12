@@ -78,9 +78,7 @@ const NossosServicos = () => (
                 <p className="mt-4 text-lg text-gray-500">
                   Através da Posse de Arma de Fogo, o cidadão pode possuir até
                   quatro armas de calibre permitido em sua residência ou
-                  comércio. Se muitos possuem uma arma, o criminoso pensaria
-                  duas vezes antes de atacar alguém, pois suas chances de sair
-                  ileso diminuem.
+                  comércio, voltadas para sua defesa pessoal.
                 </p>
                 <div className="mt-6">
                   <a
