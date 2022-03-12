@@ -1,3 +1,5 @@
+import SliderContainer from '../Slider/SliderContainer'
+
 const NossaMissao = () => (
   <>
     <div className="relative mt-20">
@@ -43,7 +45,14 @@ const NossaMissao = () => (
           </div>
           <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0 lg:max-w-none lg:py-20">
             {/* Testimonial card*/}
-            <div className="relative pt-64 pb-10 rounded-2xl overflow-hidden"></div>
+              <SliderContainer
+                images={[
+                  { src: "/img/carrossel-laranja/cp-01.jpeg", width: 700, height: 700, name: 'carroseel-laranja'},
+                  { src: "/img/carrossel-laranja/cp-02.jpeg", width: 700, height: 700, name: 'carroseel-laranja'},
+                  { src: "/img/carrossel-laranja/cp-03.jpeg", width: 700, height: 700, name: 'carroseel-laranja'},
+                  { src: "/img/carrossel-laranja/cp-04.jpeg", width: 700, height: 700, name: 'carroseel-laranja'},
+                ]}
+              />
           </div>
         </div>
 

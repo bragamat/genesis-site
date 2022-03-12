@@ -116,9 +116,6 @@ const NossosServicos = () => (
         <h2 className="text-3xl font-extrabold text-white tracking-tight">
           Nossos Serviços
         </h2>
-        <p className="mt-4 max-w-3xl text-lg text-purple-200">
-          Aproveite dos nossos serviços
-        </p>
         {servicos.map((feature) => (
           <div
             key={feature.name}
@@ -131,14 +128,6 @@ const NossosServicos = () => (
             </span>
             {feature.services.map((service) => (
               <div key={service.name}>
-                <div>
-                  <span className="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-                    <service.icon
-                      className="h-6 w-6 text-white"
-                      aria-hidden="true"
-                    />
-                  </span>
-                </div>
                 <div className="mt-6">
                   <h3 className="text-lg font-medium text-white">
                     {service.name}
