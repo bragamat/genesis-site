@@ -24,7 +24,6 @@ export default function Slider({ src, ...rest }) {
       className="carousel-item relative w-full"
       id={`slide${rest.number}-${rest.name}`}
     >
-      {console.log(' ta chegnado aqui :' , rest.className, rest.layoutFill)}
     <Image
       className={`rounded-xl shadow-xl ring-1 ring-black
       ring-opacity-5 lg:right-0 lg:h-full lg:w-auto
@@ -36,7 +35,8 @@ export default function Slider({ src, ...rest }) {
     />
       <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
         <Link href={`#slide${calculatePreviousNumber()}-${rest.name}`} passHref>
-          <a className="btn btn-circle">❮</a>
+          <a
+            className={rest.name === 'carrossel-preto' ? 'invisible' : ' btn btn-circle'}>❮</a>
         </Link>
 
         <Link href={`#slide${calculateNextNumber()}-${rest.name}`} passHref>
