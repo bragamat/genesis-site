@@ -7,6 +7,7 @@ const NossosServicos = () => (
     <div className="relative pt-16 pb-26 overflow-hidden">
       <div
         aria-hidden="true"
+        // className="absolute inset-x-0 top-0 h-48 bg-white from-gray-100"
         className="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-gray-100"
       />
       <div className="relative">
@@ -111,9 +112,9 @@ const NossosServicos = () => (
       </div>
     </div>
 
-    <div className="bg-gradient-to-r from-purple-800 to-indigo-700">
+    <div className="bg-white">
       <div className="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
-        <h2 className="text-3xl font-extrabold text-white tracking-tight">
+        <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
           Nossos Serviços
         </h2>
         {servicos.map((feature) => (
@@ -129,10 +130,12 @@ const NossosServicos = () => (
             {feature.services.map((service) => (
               <div key={service.name}>
                 <div className="mt-6">
-                  <h3 className="text-lg font-medium text-white">
+                  {/* <h3 className="text-lg font-medium text-white"> */}
+                  <h4 className="text-3xl font-extrabold tracking-tight text-gray-900">
                     {service.name}
-                  </h3>
-                  <p className="mt-2 text-base text-purple-200">
+                  </h4>
+                  {/* <p className="mt-2 text-base text-purple-200"> */}
+                  <p className="mt-2 text-lg text-gray-500">
                     {service.description}
                   </p>
                 </div>
