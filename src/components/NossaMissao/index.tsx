@@ -55,10 +55,9 @@ const NossaMissao = () => (
             </h2>
             <div className="mt-6 text-gray-500 space-y-6">
               <p className="text-lg">
-                Atender bem e prontamente a todas as pessoas sendo referência no
-                ramo de Consultoria e Despachante Bélico. Entregar cada vez mais
-                e com melhor qualidade nossos serviços Respeito às pessoas, às
-                leis e ao meio ambiente superando as expectativas
+                Atender bem e prontamente a todas as pessoas, sendo referência
+                no ramo de consultoria em armas de fogo. Entregar cada vez mais
+                e com melhor qualidade nossos serviços.
               </p>
             </div>
           </div>
