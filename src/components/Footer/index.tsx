@@ -6,7 +6,7 @@ const Main = () => (
     <h2 id="footer-heading" className="sr-only">
       Footer
     </h2>
-    <div className="grid grid-cols-1 md:grid-cols-2 p-4 md:p-20">
+    <div className="grid grid-cols-1 md:grid-cols-4 p-4 md:p-20">
       <div className="md:col-span-1 pt-10 md:pt-0">
         <a href="#">
           <Image
@@ -20,15 +20,30 @@ const Main = () => (
       </div>
       <div className="md:col-span-1 pt-10 md:pt-4">
         <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-          ATENDIMENTO
+          CONTATO
         </h3>
-        <p className="mt-4 text-base text-gray-900">(41) 3015-3222</p>
+        <p className="mt-4"></p>
         <a
-          href="mailto:atendimento@falconarmas.com.br"
+          href="https://web.whatsapp.com/send?phone=5511932155396"
+          target="_blank"
+          rel="noreferrer"
+        >
+          (11) 93215-5396
+        </a>
+        <br />
+        <p className="mt-4"></p>
+        <a
+          href="mailto:contato@genesisassessoria.com"
           className="text-base text-gray-900 hover:text-gray-500"
         >
-          atendimento@falconarmas.com.br
+          contato@genesisassessoria.com
         </a>
+      </div>
+      <div className="md:col-span-1 pt-10 md:pt-4">
+        <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
+          ATENDIMENTO
+        </h3>
+        <p className="mt-4"></p>
         <p className="text-base text-gray-900">
           Segunda à Sexta: <br />
           09H às 18H
@@ -38,7 +53,7 @@ const Main = () => (
           09H às 13H
         </p>
       </div>
-      <div className="md:col-span-2 pt-10 md:pt-4">
+      <div className="md:col-span-1 pt-10 md:pt-4">
         <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
           SIGA-NOS
         </h3>

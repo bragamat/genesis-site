@@ -42,7 +42,6 @@ export default function Example() {
         <NossosServicos />
         <NossaHistoria />
         <NossaMissao />
-        <ContatoLocalizacao />
 
         {/* CTA Section */}
         <div className="bg-white">
