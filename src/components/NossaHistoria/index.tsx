@@ -31,10 +31,12 @@ const NossaHistoria = () => (
           </p>
           <p className="mt-5 text-lg text-gray-300">
             A Gênesis Assessoria iniciou sua trajetória no ano de 2019,
-            idealizada por dois ex militares do Exército Brasileiro, que notaram
+            idealizada por dois ex-militares do Exército Brasileiro, que notaram
             a carência de uma empresa eficiente no ramo de documentação de
             Produtos Controlados pelo Exército (PCE), que fosse focada no bom
-            atendimento e com solução eficaz
+            atendimento e com solução eficaz. Desde então a empresa tem se
+            destacado no ramo de assessoria e despachante tornando-se referência
+            de confiabilidade.
           </p>
           <div className="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
             {/*metrics.map((item) => (
