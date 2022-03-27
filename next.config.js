@@ -7,7 +7,10 @@ module.exports = withPWA({
     dest: 'public',
     disable: !isProd
   },
+  assetPrefix: "./",
   images: {
+    loader: 'akamai',
+    path: '',
     domains: ['images.unsplash.com', 'tailwindui.com']
   }
 })

@@ -33,24 +33,6 @@ const Main = () => (
           <Popover className="relative">
             {() => (
               <>
-                {/*
-                <Popover.Button
-                  className={classNames(
-                    open ? 'text-gray-900' : 'text-gray-500',
-                    'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
-                  )}
-                >
-                  <span>Solutions</span>
-                  <ChevronDownIcon
-                    className={classNames(
-                      open ? 'text-gray-600' : 'text-gray-400',
-                      'ml-2 h-5 w-5 group-hover:text-gray-500'
-                    )}
-                    aria-hidden="true"
-                  />
-                </Popover.Button>
-                  */}
-
                 <Transition
                   as={Fragment}
                   enter="transition ease-out duration-200"
@@ -105,22 +87,6 @@ const Main = () => (
             </a>
           </Link>
         </Popover.Group>
-        {/*
-        <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-          <a
-            href="#"
-            className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"
-          >
-            Sign in
-          </a>
-          <a
-            href="#"
-            className="ml-8 whitespace-nowrap inline-flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-purple-700 hover:to-indigo-700"
-          >
-            Sign up
-          </a>
-        </div>
-         * */}
       </div>
 
       <Transition

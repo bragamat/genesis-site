@@ -25,6 +25,7 @@ export default function Slider({ src, ...rest }) {
       id={`slide${rest.number}-${rest.name}`}
     >
     <Image
+      id={`slide${rest.number}-${rest.name}`}
       className={`rounded-xl shadow-xl ring-1 ring-black
       ring-opacity-5 lg:right-0 lg:h-full lg:w-auto
       lg:max-w-none relative w-full ${rest.className}`}

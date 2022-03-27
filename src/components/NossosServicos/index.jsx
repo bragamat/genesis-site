@@ -37,7 +37,12 @@ const NossosServicos = () => (
                 <div className="mt-6">
                   <a
                     href="#contato-e-localizacao"
-                    className="inline-flex bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700"
+                    className="inline-flex bg-gradient-to-r
+                    from-blue-600 to-indigo-600
+                    bg-origin-border px-4 py-2 border
+                    border-transparent text-base font-medium
+                    rounded-md shadow-sm text-white
+                    hover:from-blue-700 hover:to-indigo-700"
                   >
                     Saiba mais
                   </a>
@@ -87,7 +92,10 @@ const NossosServicos = () => (
                 <div className="mt-6">
                   <a
                     href="#contato-e-localizacao"
-                    className="inline-flex bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700"
+                    className="inline-flex bg-gradient-to-r from-blue-600
+                    to-indigo-600 bg-origin-border px-4 py-2 border
+                    border-transparent text-base font-medium
+                    rounded-md shadow-sm text-white hover:from-blue-700 hover:to-indigo-700"
                   >
                     Saiba mais
                   </a>
