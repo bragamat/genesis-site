@@ -4,7 +4,7 @@ import SliderContainer from '../Slider/SliderContainer'
 
 const NossosServicos = () => (
   <>
-    <div className="relative pt-16 pb-26 overflow-hidden">
+    <div className="relative pt-16 pb-26 overflow-hidden" id="nossos-servicos">
       <div
         aria-hidden="true" className="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-gray-100"
       />

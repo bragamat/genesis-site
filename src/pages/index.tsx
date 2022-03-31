@@ -19,10 +19,12 @@ export default function Example() {
                   alt="Main header image"
                   layout="fill"
                 />
-                <div className="
+                <div
+                  className="
                 absolute inset-0 bg-gradient-to-r
                 from-blue-800 to-indigo-700 mix-blend-multiply
-                " />
+                "
+                />
               </div>
               <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
                 <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
@@ -59,11 +61,7 @@ export default function Example() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <Image
-                  src="/img/wpp-button.png"
-                  width={300}
-                  height={100}
-                />
+                <Image src="/img/wpp-button.png" width={300} height={100} />
               </a>
             </div>
           </div>

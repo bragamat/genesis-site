@@ -1,18 +1,18 @@
 export const solutions = [
   {
     name: 'Nossa História',
-    href: '/nossa-historia'
+    href: '#nossa-historia'
   },
   {
     name: 'Nossos Serviços',
-    href: '/nossos-servicos'
+    href: '#nossos-servicos'
   },
   {
     name: 'Nossa Missão',
-    href: '/nossa-missao'
+    href: '#nossa-missao'
   },
   {
     name: 'Contato',
-    href: 'contato'
+    href: '#contato-e-localizao'
   }
 ]

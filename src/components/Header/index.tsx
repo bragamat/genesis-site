@@ -66,22 +66,22 @@ const Main = () => (
             )}
           </Popover>
 
-          <Link href="nossa-historia" passHref>
+          <Link href="#nossa-historia" passHref>
             <a className="text-base font-medium text-gray-500 hover:text-gray-900">
               Nossa História
             </a>
           </Link>
-          <Link href="nossos-servicos" passHref>
+          <Link href="#nossos-servicos" passHref>
             <a className="text-base font-medium text-gray-500 hover:text-gray-900">
               Nossos Serviços
             </a>
           </Link>
-          <Link href="nossa-missao" passHref>
+          <Link href="#nossa-missao" passHref>
             <a className="text-base font-medium text-gray-500 hover:text-gray-900">
               Nossa Missão
             </a>
           </Link>
-          <Link href="contato" passHref>
+          <Link href="#contato-e-localizacao" passHref>
             <a className="text-base font-medium text-gray-500 hover:text-gray-900">
               Contato e Localização
             </a>
@@ -125,7 +125,10 @@ const Main = () => (
                 <nav className="grid grid-cols-1 gap-7">
                   {solutions.map((item) => (
                     <Link href={item.href} key={item.name} passHref>
-                      <a className="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
+                      <a
+                        className="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50"
+                        onClick={(e) => e.stopPropagation()}
+                      >
                         <div className="ml-4 text-base font-medium text-gray-900">
                           {item.name}
                         </div>

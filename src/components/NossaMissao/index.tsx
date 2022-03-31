@@ -2,7 +2,7 @@ import SliderContainer from '../Slider/SliderContainer'
 
 const NossaMissao = () => (
   <>
-    <div className="relative mt-20">
+    <div className="relative mt-20" id="nossa-missao">
       <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:gap-24 lg:items-start">
         <div className="relative sm:py-16 lg:py-0">
           <div
@@ -45,14 +45,34 @@ const NossaMissao = () => (
           </div>
           <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0 lg:max-w-none lg:py-20">
             {/* Testimonial card*/}
-              <SliderContainer
-                images={[
-                  { src: "/img/carrossel-laranja/cp-01.jpeg", width: 700, height: 700, name: 'carroseel-laranja'},
-                  { src: "/img/carrossel-laranja/cp-02.jpeg", width: 700, height: 700, name: 'carroseel-laranja'},
-                  { src: "/img/carrossel-laranja/cp-03.jpeg", width: 700, height: 700, name: 'carroseel-laranja'},
-                  { src: "/img/carrossel-laranja/cp-04.jpeg", width: 700, height: 700, name: 'carroseel-laranja'},
-                ]}
-              />
+            <SliderContainer
+              images={[
+                {
+                  src: '/img/carrossel-laranja/cp-01.jpeg',
+                  width: 700,
+                  height: 700,
+                  name: 'carroseel-laranja'
+                },
+                {
+                  src: '/img/carrossel-laranja/cp-02.jpeg',
+                  width: 700,
+                  height: 700,
+                  name: 'carroseel-laranja'
+                },
+                {
+                  src: '/img/carrossel-laranja/cp-03.jpeg',
+                  width: 700,
+                  height: 700,
+                  name: 'carroseel-laranja'
+                },
+                {
+                  src: '/img/carrossel-laranja/cp-04.jpeg',
+                  width: 700,
+                  height: 700,
+                  name: 'carroseel-laranja'
+                }
+              ]}
+            />
           </div>
         </div>
 
